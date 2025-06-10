@@ -1,7 +1,7 @@
 import Image from "next/image";
-import foto1 from "@/public/foto-1.jpg"
-import foto2 from "@/public/foto-2.jpg"
-import foto3 from "@/public/foto-3.jpg"
+import foto1 from "../../../public/foto1.jpg"
+import foto2 from "../../../public/foto2.jpg"
+import foto3 from "../../../public/foto3.jpg"
 export default function PhotoCard() {
     return (
       <div className="photo-card">
