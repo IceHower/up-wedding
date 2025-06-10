@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "warm-lane-277717",
+  "private_key_id": "065ec4a19ce998216f014badc4c3a15f4a8f5648",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCYfOsUbEYhB9h6\n3OwbL851hnEa7vQs2/FEoB04HddTogmzxt8h2qnYYUrHAhbeZ30qrAhfq7wc+l+T\ndVsbp8kQvnt3O61quyo2Wl2C9FUP6ZOhPIbMBcfEQfP/fIwlfOtOxLduR4LdMxS3\nHd6OdOuNm+GMMVOAslmg6hJBZrPXJD4xhHkzMiHLCRsyVp9Hh28SKZ2s0zpXA/B0\nskUIjjVGQgfN4LBpdS1ZY9tsAWL2FR/UQ147eIZKPvXxLYs/lEYKIis/SPUAcMVz\nDNuSL4WAa3LgXMUBsQnvbiPwfiBqueVD2XOYT0d3AvHwwy68Jomma6iAB5uga5Q/\nL2SxqQSjAgMBAAECggEAAz6HzdvD3jNe3WD9O6gtD1O4l6cagNMpHe7+JXx/tqLN\nlrVAzWVBPyj1a1MrDg5Lm8XPOSHb6GNB907ZjQwT0LcMxMD7SThe3IstpCSd+Vmx\n2g4B8YNJ+G34H/5pXj7QeXuL9N0GoWgoelY4rvU5Mb5tnQr2SNhX5H7hETfQfwpD\nm5ZTVWQl8wK5Mvcs1WDtlZWvPPAo/syhhXkSMjSyFipBT4IWInk4Cf9xBJuMFjEf\nJnGdOyNdVCpGfZjFiOyVXS4Qlw5LTxAr92mmLhKV+DSgZa2z63eMbvKkEFVXoE4W\nLI14UmJYy/QnfGoPT8HsA5eF5zhcZf+awj1trzNi0QKBgQDQ07cumGNAiTDY+hfV\nRR1L+o+STXc6RDLnn0ismxVBlZ1xWmKnP8s1fAhYQu1S8uZESfDjKIQEnJ01V1YQ\nRPO3XXmrYh0w6Km/KEd4lKKUFp38icWajfLZ4EJN5KQ3hIFVCCpWIe05wUbXfaHd\nCf0pGkLDbBfIRt3VRzPxKEi2aQKBgQC67yoV107Ja9Ow/N+o68DNn7j7pvOa6syR\nuBx7nNx4hREhazf3T9ldihkrJU12kgwIetIU2qoAYzlY1D1auKG6edg3cSyOSyiS\ndJSAWzrOBEjad39uyA1Gy7cQb5gQ3dP8IkpHx0oHqDfz6WQT2y8cVmN+rRJ5Qiy6\nKZTFfY05KwKBgBD6JVpUaT1F6gK50lY0WD1lEWcDhT3nbXwHJxFhSkkasMIWZw7R\n0ON4QfVq+4BS3wWOPVc6ZAE7+kvr3cNU17uAjfOw9k6Tm7k+vRDAhLclX5K4YKhA\nAg5UfQ94FyGsVBdloot+Fpsra2b5f79IoJxG1kas8wIFQOOl9kMU01SBAoGBAKnM\n2UOhodVgdpgL+vWrwCSHczZTvm/32/55aJX4NGPdK2RZyiqBg4ZuDNKePbD4lKmX\nNwDuZwGXH95KW7jugSmrx/UEfl56cs4ly0aUl+PPDIY1ibGNUlH+dbkeRNj9RrN+\nSk7M/bfa24hZdih7Ll3lMtc8Ss2OiKZJYvPJSeClAoGBALYWGhE2DxGBKA9dZnDv\n8bPg1581ECVhA2ykIfA05L068A1utcgiRSrZMffP6rtPdBNuaD81h7Fo7bfug0K2\nP3bmjrnnDTWZlaFoSknkx8ZyG5fo7zg23YbybdZI9UC0s/5BpBQKnUEOh/c1O7D4\nDMBQQub2bS/sPXHidlZ0/ZxY\n-----END PRIVATE KEY-----\n",
+  "client_email": "upload-casamento@warm-lane-277717.iam.gserviceaccount.com",
+  "client_id": "111985996873718222549",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/upload-casamento%40warm-lane-277717.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
