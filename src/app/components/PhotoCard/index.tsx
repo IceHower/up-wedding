@@ -1,15 +1,41 @@
+import Image from "next/image";
+
 export default function PhotoCard() {
     return (
       <div className="photo-card">
         <ul>
             <li>
-                <img src="/foto-1.jpg" alt="Foto 1" />
+                <div className="image-container">
+                    <Image 
+                        src="/foto-1.jpg" 
+                        alt="Foto 1" 
+                        fill
+                        style={{ objectFit: 'cover' }}
+                        priority
+                    />
+                </div>
             </li>
             <li>
-                <img src="/foto-3.jpg" alt="Foto 2" />
+                <div className="image-container">
+                    <Image 
+                        src="/foto-3.jpg" 
+                        alt="Foto 2" 
+                        fill
+                        style={{ objectFit: 'cover' }}
+                        priority
+                    />
+                </div>
             </li>
             <li>
-                <img src="/foto-2.jpg" alt="Foto 3" />
+                <div className="image-container">
+                    <Image 
+                        src="/foto-2.jpg" 
+                        alt="Foto 3" 
+                        fill
+                        style={{ objectFit: 'cover' }}
+                        priority
+                    />
+                </div>
             </li>
         </ul>
   
@@ -45,6 +71,12 @@ export default function PhotoCard() {
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
           }
 
+          .image-container {
+            position: relative;
+            width: 100%;
+            height: 100%;
+          }
+
           li:nth-child(1) {
             --rotation: -30deg;
             left: -50px;
@@ -61,12 +93,6 @@ export default function PhotoCard() {
             left: 460px;
           }
         
-          img {
-            width: 100%;
-            height: 340px;
-            object-fit: cover;
-          }
-
           @media (max-width: 768px) {
             .photo-card {
               min-height: 350px;
@@ -87,10 +113,6 @@ export default function PhotoCard() {
 
             li:nth-child(3) {
               left: 330px;
-            }
-
-            img {
-              height: 300px;
             }
           }
 
@@ -118,10 +140,6 @@ export default function PhotoCard() {
               left: 220px;
               --rotation: 20deg;
             }
-
-            img {
-              height: 240px;
-            }
           }
 
           @media (max-width: 360px) {
@@ -147,10 +165,6 @@ export default function PhotoCard() {
             li:nth-child(3) {
               left: 175px;
               --rotation: 15deg;
-            }
-
-            img {
-              height: 200px;
             }
           }
         `}</style>
