@@ -1,5 +1,7 @@
 import Image from "next/image";
-
+import foto1 from "@/public/foto-1.jpg"
+import foto2 from "@/public/foto-2.jpg"
+import foto3 from "@/public/foto-3.jpg"
 export default function PhotoCard() {
     return (
       <div className="photo-card">
@@ -7,7 +9,7 @@ export default function PhotoCard() {
             <li>
                 <div className="image-container">
                     <Image 
-                        src="/foto-1.jpg" 
+                        src={foto1} 
                         alt="Foto 1" 
                         fill
                         style={{ objectFit: 'cover' }}
@@ -18,7 +20,7 @@ export default function PhotoCard() {
             <li>
                 <div className="image-container">
                     <Image 
-                        src="/foto-3.jpg" 
+                        src={foto3} 
                         alt="Foto 2" 
                         fill
                         style={{ objectFit: 'cover' }}
@@ -29,7 +31,7 @@ export default function PhotoCard() {
             <li>
                 <div className="image-container">
                     <Image 
-                        src="/foto-2.jpg" 
+                        src={foto2} 
                         alt="Foto 3" 
                         fill
                         style={{ objectFit: 'cover' }}
